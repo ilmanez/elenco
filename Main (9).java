@@ -2,6 +2,7 @@ import java.util.Scanner;
  public class Main{
 public static void main(String[] args) {
     int choice;
+     Scanner sc= new Scanner (System.in);
     do {
         System.out.println("\nSeleziona un'opzione:");
         System.out.println("1 - Aggiunta di un nome");
